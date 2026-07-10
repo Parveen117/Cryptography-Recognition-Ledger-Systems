@@ -1,0 +1,8 @@
+{
+  "chain_head_before_tamper": "e63e358a8d759dc96d08c17a015d61575c3b1605a9ed4ae7e8b71cd86dffcdf0",
+  "expected_result": "verification failure",
+  "mutated_field": "metadata.tampered_after_issue",
+  "mutated_sequence": 1,
+  "reason": "payload_signature and record_hash no longer match canonical record payload",
+  "tamper_scenario": "metadata mutation after ledger issue"
+}

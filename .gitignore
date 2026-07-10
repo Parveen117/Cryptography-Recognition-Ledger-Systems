@@ -1,0 +1,38 @@
+# Jupyter notebooks and temporary files
+*.ipynb
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+ENV/
+env/
+
+# Secret environment/config files
+.env
+*.env
+credentials.py
+secrets.py
+
+# Logs and temporary files
+*.log
+*.tmp
+tmp/
+temp/
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Large generated data files
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite

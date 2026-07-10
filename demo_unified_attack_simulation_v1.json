@@ -1,0 +1,96 @@
+{
+  "attacks": [
+    {
+      "attack": "clean_control",
+      "detected": false,
+      "detection_error": "",
+      "extra": {
+        "verification_status": "VERIFIED"
+      },
+      "reason": "baseline unified certificate verifies successfully",
+      "runtime_commitment": "f91aa53664b6d625857bc4e9d47dd083595d4e59c09f89f2b579a91215ca6656"
+    },
+    {
+      "attack": "payload_tamper",
+      "detected": true,
+      "detection_error": "payload digest set mismatch",
+      "extra": {},
+      "reason": "payload changed while certificate remained fixed",
+      "runtime_commitment": "f91aa53664b6d625857bc4e9d47dd083595d4e59c09f89f2b579a91215ca6656"
+    },
+    {
+      "attack": "context_tamper",
+      "detected": true,
+      "detection_error": "context digest set mismatch",
+      "extra": {},
+      "reason": "context changed while certificate remained fixed",
+      "runtime_commitment": "f91aa53664b6d625857bc4e9d47dd083595d4e59c09f89f2b579a91215ca6656"
+    },
+    {
+      "attack": "phase_packet_tamper",
+      "detected": true,
+      "detection_error": "runtime commitment mismatch",
+      "extra": {},
+      "reason": "spectral phase packet commitment changed",
+      "runtime_commitment": "f91aa53664b6d625857bc4e9d47dd083595d4e59c09f89f2b579a91215ca6656"
+    },
+    {
+      "attack": "anti_seam_tamper",
+      "detected": true,
+      "detection_error": "runtime commitment mismatch",
+      "extra": {},
+      "reason": "anti-seam completion commitment changed",
+      "runtime_commitment": "f91aa53664b6d625857bc4e9d47dd083595d4e59c09f89f2b579a91215ca6656"
+    },
+    {
+      "attack": "curvature_certificate_tamper",
+      "detected": true,
+      "detection_error": "runtime commitment mismatch",
+      "extra": {},
+      "reason": "curvature certificate hash changed",
+      "runtime_commitment": "f91aa53664b6d625857bc4e9d47dd083595d4e59c09f89f2b579a91215ca6656"
+    },
+    {
+      "attack": "signature_tamper",
+      "detected": true,
+      "detection_error": "runtime commitment mismatch",
+      "extra": {},
+      "reason": "signature envelope changed",
+      "runtime_commitment": "f91aa53664b6d625857bc4e9d47dd083595d4e59c09f89f2b579a91215ca6656"
+    },
+    {
+      "attack": "runtime_commitment_tamper",
+      "detected": true,
+      "detection_error": "runtime commitment mismatch",
+      "extra": {},
+      "reason": "runtime commitment changed",
+      "runtime_commitment": "3333333333333333333333333333333333333333333333333333333333333333"
+    },
+    {
+      "attack": "runtime_id_splicing",
+      "detected": true,
+      "detection_error": "runtime commitment mismatch",
+      "extra": {},
+      "reason": "runtime id was spliced from another certificate",
+      "runtime_commitment": "f91aa53664b6d625857bc4e9d47dd083595d4e59c09f89f2b579a91215ca6656"
+    },
+    {
+      "attack": "cross_certificate_signature_splicing",
+      "detected": true,
+      "detection_error": "runtime commitment mismatch",
+      "extra": {},
+      "reason": "signature envelope was spliced from another certificate",
+      "runtime_commitment": "f91aa53664b6d625857bc4e9d47dd083595d4e59c09f89f2b579a91215ca6656"
+    }
+  ],
+  "issued_at_ns": 1783043307301252500,
+  "report_id": "663f90c6-e47f-4aba-ae81-bb48ac2af6d9",
+  "summary": {
+    "all_unified_attacks_detected": true,
+    "clean_runtime_commitment": "f91aa53664b6d625857bc4e9d47dd083595d4e59c09f89f2b579a91215ca6656",
+    "detected_attacks": 9,
+    "missed_attacks": 0,
+    "total_attacks": 9
+  },
+  "version": "0.1.0-unified-attack-simulator"
+}

@@ -1,0 +1,45 @@
+{
+  "anti_seam": {
+    "anti_seam_commitment": "0d365d522bb9d64714e6234f4038b833118eba03fc5e4455b78bfcd333e132d4",
+    "balance_residue": 0.08382218880202208,
+    "closure_residue": 0.21757948287240692,
+    "completion_status": "CLOSED",
+    "seam_gap": 0.02734375,
+    "technical_action": "CERTIFY_COMPLETION",
+    "valid": true
+  },
+  "curvature": {
+    "certificate_hash": "b834cdb8a21792371d9ece713787e1bce8ff9e1fd4f922dc1c71c8e93d053d8f",
+    "certificate_id": "59ee1c5b-63d0-4ea7-82be-4cc4614f2d5b",
+    "classification": "ACTIONABLE_RESIDUE",
+    "determinant_holonomy": 0.7987991549970415,
+    "kappa_emk": 3.9656128915178805,
+    "phase_residue": 0.3183553016282392,
+    "sign_flip_residue": 0,
+    "technical_action": "REJECT_QUARANTINE_AND_ESCALATE",
+    "valid": true
+  },
+  "phase": {
+    "phase_commitment": "1b55b33be8afbcf0cdddb1c76021dad79ef18619fa1e10f28e23b94f487209e2",
+    "prime_index": 1514,
+    "prime_value": 12671,
+    "spectral_digest": "20840e5543615eaaf0f1d6095207b0912bdba10ed17fde64edc31561ca6a499abe67b38c29d389ceadc954839011b9f190d9250580f9fd7cc3e8858d3ca3993b",
+    "spectral_trace": 1.497220193728722,
+    "valid": true
+  },
+  "runtime_commitment": "b2c2b942b81b54f9117df12951b532c00f3eb5725c08ef24170b94fbec8d8753",
+  "runtime_id": "75d576a8-609a-453f-b8e9-d312cf50d125",
+  "signature": {
+    "key_id": "044496126ec30ee26941ae72",
+    "payload_hash": "009600ce6635903c8440a67d8027f5a821381ca619f46ba2b9dabed5425f5580ef74d704e11db981806d14e688884a3846e3898558329b648da594a2e7e6013a",
+    "public_key_fingerprint": "044496126ec30ee26941ae72dd167a7496bedaed33b5b90fb15ea9f4baa9c56b",
+    "scheme": "hmac-sha256",
+    "signature_hash": "9ccae477abb17cb17b357ac7f0c4023d2f7f46b0cac127f92e5721eefa3e7826",
+    "status": "ACTIVE_SHARED_SECRET",
+    "valid": true,
+    "verification_status": "VERIFIED_SHARED_SECRET"
+  },
+  "technical_action": "CERTIFY_UNIFIED_RECOGNITION",
+  "valid": true,
+  "verification_status": "VERIFIED"
+}

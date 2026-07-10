@@ -1,0 +1,14 @@
+{
+  "algorithms": [
+    "sha256",
+    "sha3_256",
+    "blake2b"
+  ],
+  "combined_digest": "b3ba0cdc378557be7ca497f3357e023a9db270fc6239a383d79f0ef4c74677f84ec56fc1469bb5500f8fd9d498c1e676acb75e153c74621dfd9237898648fe25",
+  "combiner_algorithm": "sha3_512",
+  "digests": {
+    "blake2b": "4e4ee6c2ac2d70475533170a916f3903b1b4f168b473b62a1d8dad750e2fafe6e0f7fd68795a7b75a7bcf899cc2f8abf39288dfaf91bfe04dd949546239e9ea1",
+    "sha256": "032f79d4f44be5b634204dc9bb1cad0353f3ce6a8f9eb520f4d7e8b4c7a1c90c",
+    "sha3_256": "6256e03824858c7a20ea802d7d6427a1500a717a4261d6a60d18e5ff1dc2ebb5"
+  }
+}

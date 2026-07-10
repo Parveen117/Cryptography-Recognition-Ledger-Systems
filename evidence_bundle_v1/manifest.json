@@ -1,0 +1,26 @@
+{
+  "bundle_digest": "ff4fd8149fc4bfeafe97d6d636c057c52ab3f1ad9d9a80367b404904dbbd440e",
+  "bundle_id": "14f8babc-3182-4131-b919-61241346d46f",
+  "created_at_ns": 1783044236815567800,
+  "file_hashes_sha256": {
+    "README_EVIDENCE_BUNDLE.md": "c9c07db91a25435a6911a15952c1477ba66cbd7fb05f88472f9d581440fabe10",
+    "anti_seam_completion.json": "9c09545ce26f1370e727903682f38ffd7df2ef568bf8db5c4a32dd173cc623e4",
+    "context.json": "de3f8b7c7bd21e64a8c1a09b6fcddfc7d6bc9b7dee594d1ed318b57fa8b12f6a",
+    "curvature_certificate.json": "6b4210f116d43f71a8ef0b9717e5435b1295d5ecf810808b5bfd098ef7fb5181",
+    "ledger_anchor.jsonl": "5c7bf845e760c45e4fff014c2125c50cc4a7b634fda82925c10826eefe8d5567",
+    "payload.json": "10b192d57f3ebf33855ab64766f3904438bf0aacf745c3cfb9e9c254e49f9a01",
+    "payload_digest_set.json": "0525ef434750c66d30d99c5952d6135f9c8ddde10a60ea16d2af0221f7aeae5b",
+    "signature_envelope.json": "04f26675b06e447a8971804be7be36280081d94434b6ed9035048547bbceed64",
+    "spectral_phase_packet.json": "4ef8164a971a3df7a62c63ed30171204b96185c191fb52e1745265c813199d77",
+    "unified_attack_report.json": "04f0eae326b4bb01baa9d651183228732362b8bc5ec1863253506f402f1c5218",
+    "unified_certificate.json": "492ed0f39b0de2198bb1f2dda93dfd220003b1a8d9cb3e555d7afa14d14ed316",
+    "unified_verification_report.json": "2a0eaf1d971a06217c52d272fb24aeeca338e0da87f1c7c6cf3a2ea8b87c7890"
+  },
+  "runtime_version": "0.1.0-unified-recognition-runtime",
+  "summary": {
+    "all_unified_attacks_detected": true,
+    "detected_attacks": 9,
+    "missed_attacks": 0,
+    "verification_valid": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "anti_seam_commitment": "0d365d522bb9d64714e6234f4038b833118eba03fc5e4455b78bfcd333e132d4",
+  "balance_residue": 0.08382218880202208,
+  "closure_residue": 0.21757948287240692,
+  "completion_status": "CLOSED",
+  "context_hash": "0b0997dc4911318d62315916dad6ec43030412544a5d593647b9121366a57766",
+  "hidden_completion_digest": "56025959a3e5c433724a5cabd390370c95755ef7595984107cf82309644506fdba5dcda64fe704db3045ee7d723f00725adf2d79a5960731df9f2ea6d6ade9bc",
+  "metadata": {
+    "bundle_id": "14f8babc-3182-4131-b919-61241346d46f",
+    "runtime": "0.1.0-unified-recognition-runtime"
+  },
+  "payload_hash": "032f79d4f44be5b634204dc9bb1cad0353f3ce6a8f9eb520f4d7e8b4c7a1c90c",
+  "phase_commitment": "1b55b33be8afbcf0cdddb1c76021dad79ef18619fa1e10f28e23b94f487209e2",
+  "policy": {
+    "tau_balance": 0.5,
+    "tau_closure": 1.0,
+    "tau_gap": 0.5
+  },
+  "seam_gap": 0.02734375,
+  "technical_action": "CERTIFY_COMPLETION",
+  "version": "0.1.0-anti-seam-completion",
+  "visible_digest": "293b0bee4a2cc7d65ec72e61ae570bfc2bc53f5e942fb397570332d1b12426c7"
+}

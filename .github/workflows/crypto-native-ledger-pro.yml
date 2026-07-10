@@ -1,0 +1,37 @@
+name: Crypto Native Ledger Pro CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install test dependency
+        run: python -m pip install --upgrade pip pytest
+
+      - name: Run unit tests
+        run: python -m pytest -q
+
+      - name: Verify evidence ledger
+        run: |
+          python -m crypto_native_ledger_pro.cli verify \
+            --ledger CRYPTO_NATIVE_LEDGER_PRO_EVIDENCE/demo-ledger.jsonl \
+            --secret 'b64:Y3J5cHRvLW5hdGl2ZS1sZWRnZXItcHJvLWRlbW8tc2VjcmV0LTIwMjY'
+
+      - name: Export evidence certificate
+        run: |
+          python -m crypto_native_ledger_pro.cli certificate \
+            --ledger CRYPTO_NATIVE_LEDGER_PRO_EVIDENCE/demo-ledger.jsonl \
+            --secret 'b64:Y3J5cHRvLW5hdGl2ZS1sZWRnZXItcHJvLWRlbW8tc2VjcmV0LTIwMjY' \
+            --out rebuilt-demo-certificate.json

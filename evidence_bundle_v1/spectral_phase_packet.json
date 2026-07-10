@@ -1,0 +1,30 @@
+{
+  "context_hash": "0b0997dc4911318d62315916dad6ec43030412544a5d593647b9121366a57766",
+  "metadata": {
+    "bundle_id": "14f8babc-3182-4131-b919-61241346d46f",
+    "runtime": "0.1.0-unified-recognition-runtime"
+  },
+  "operator_trace": {
+    "energy": 1.7175865960601808,
+    "imag_trace": 1.4600370656714898,
+    "prime_log": 9.447071196798909,
+    "real_trace": -0.3316022849355187,
+    "spectral_radius": 1.497220193728722
+  },
+  "payload_hash": "032f79d4f44be5b634204dc9bb1cad0353f3ce6a8f9eb520f4d7e8b4c7a1c90c",
+  "phase_commitment": "1b55b33be8afbcf0cdddb1c76021dad79ef18619fa1e10f28e23b94f487209e2",
+  "phase_vector": [
+    1.7370394168378684,
+    2.3311929365811412,
+    0.8332689275680272,
+    4.563814830332957,
+    5.662770854110326,
+    2.5234985209671494
+  ],
+  "prime_index": 1514,
+  "prime_value": 12671,
+  "seed_hash": "8c88664433f0c5ca297b2553414fe1b286a9134e017e2af664812525c0fa07f65ccea9f6fcbe98543c5c9f649e9924259eea337417d4793aa99563fac1f0a83a",
+  "spectral_digest": "20840e5543615eaaf0f1d6095207b0912bdba10ed17fde64edc31561ca6a499abe67b38c29d389ceadc954839011b9f190d9250580f9fd7cc3e8858d3ca3993b",
+  "spectral_trace": 1.497220193728722,
+  "version": "0.1.0-spectral-prime-phase"
+}

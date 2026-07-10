@@ -1,0 +1,175 @@
+{
+  "anti_seam_completion": {
+    "anti_seam_commitment": "0d365d522bb9d64714e6234f4038b833118eba03fc5e4455b78bfcd333e132d4",
+    "balance_residue": 0.08382218880202208,
+    "closure_residue": 0.21757948287240692,
+    "completion_status": "CLOSED",
+    "context_hash": "0b0997dc4911318d62315916dad6ec43030412544a5d593647b9121366a57766",
+    "hidden_completion_digest": "56025959a3e5c433724a5cabd390370c95755ef7595984107cf82309644506fdba5dcda64fe704db3045ee7d723f00725adf2d79a5960731df9f2ea6d6ade9bc",
+    "metadata": {
+      "bundle_id": "14f8babc-3182-4131-b919-61241346d46f",
+      "runtime": "0.1.0-unified-recognition-runtime"
+    },
+    "payload_hash": "032f79d4f44be5b634204dc9bb1cad0353f3ce6a8f9eb520f4d7e8b4c7a1c90c",
+    "phase_commitment": "1b55b33be8afbcf0cdddb1c76021dad79ef18619fa1e10f28e23b94f487209e2",
+    "policy": {
+      "tau_balance": 0.5,
+      "tau_closure": 1.0,
+      "tau_gap": 0.5
+    },
+    "seam_gap": 0.02734375,
+    "technical_action": "CERTIFY_COMPLETION",
+    "version": "0.1.0-anti-seam-completion",
+    "visible_digest": "293b0bee4a2cc7d65ec72e61ae570bfc2bc53f5e942fb397570332d1b12426c7"
+  },
+  "context_digest_set": {
+    "algorithms": [
+      "sha256",
+      "sha3_256",
+      "blake2b"
+    ],
+    "combined_digest": "36b6ee30f0558eb09840c966f1ab954e65dcfd05ed0f58b34a20c1907237327680e6f37228dd61761224d03794bdde548d4b8b30a4040270a409c6ba9a2d4cfc",
+    "combiner_algorithm": "sha3_512",
+    "digests": {
+      "blake2b": "f58ce1d0f95beea4772ce8f49f5e970bedacec7138d639c7374a42831f42f9b011452d227afc8be5156d25aa843150518a7b9c1dec8f461d0102aa8dffaf176f",
+      "sha256": "0b0997dc4911318d62315916dad6ec43030412544a5d593647b9121366a57766",
+      "sha3_256": "f3f1cc92b89fef0faf4aceec69fcec57b0709537c8dcf7be5fec077aedc4deec"
+    }
+  },
+  "curvature_certificate": {
+    "certificate_hash": "b834cdb8a21792371d9ece713787e1bce8ff9e1fd4f922dc1c71c8e93d053d8f",
+    "certificate_id": "59ee1c5b-63d0-4ea7-82be-4cc4614f2d5b",
+    "classification": "ACTIONABLE_RESIDUE",
+    "determinant_holonomy": 0.7987991549970415,
+    "emk_packet": {
+      "a": 0.6924849463842075,
+      "additive_determinant": 0.503368348351732,
+      "b": 0.026460210740673396,
+      "c": 0.18950736358284653,
+      "d": -0.10667685183153414,
+      "delta_parallel": 0.47883525821629797,
+      "delta_perp": 0.0245330901354341
+    },
+    "expected_sign_product": 1,
+    "issued_at_ns": 1783044236621086200,
+    "kappa_emk": 3.9656128915178805,
+    "metadata": {
+      "bundle_id": "14f8babc-3182-4131-b919-61241346d46f",
+      "runtime": "0.1.0-unified-recognition-runtime",
+      "signer": "unified-runtime"
+    },
+    "observed_hash": "628d630b1034779599930c6c4961a6d40af3875caf7adec4a9af89f6db7cba88",
+    "observed_sign_product": 1,
+    "phase_hash": "5920f373a34a374ee1071bf1b9ebd0a698b6265fa03caea3109c82f48816e520",
+    "phase_residue": 0.3183553016282392,
+    "policy": {
+      "alpha_curvature": 1.0,
+      "beta_delta_perp": 1.0,
+      "chi_memory": 0.5,
+      "gamma_holonomy": 1.0,
+      "ledgered_upper": 0.7,
+      "mu_residue": 1.0,
+      "tau_curvature": 0.2,
+      "tau_delta_perp": 0.08,
+      "tau_holonomy": 0.08,
+      "tau_kappa": 0.35,
+      "tau_phase": 0.08,
+      "tau_sign": 0.0
+    },
+    "recognition_residue": 0.0,
+    "root_hash": "628d630b1034779599930c6c4961a6d40af3875caf7adec4a9af89f6db7cba88",
+    "rotation_curvature": 2.571436873005047,
+    "seam_memory": 1.1416875467607148,
+    "sign_after": 1,
+    "sign_before": 1,
+    "sign_flip_residue": 0,
+    "signature": "103f21a848467f8730bcac99dfbc7f2195b8f312b449c06a55a10976fd618626",
+    "technical_action": "REJECT_QUARANTINE_AND_ESCALATE",
+    "template_hash": "4efdeac58d8c3157db8c3b08fc941f13d85b965f00074c219eb8a1c6ef2fbe20",
+    "version": "0.1.0-curvature-safe",
+    "visible_digest": "a492bcdb20a384b759e6ff9357f1f2a92d27333c03996ded50455d0308d4e437"
+  },
+  "issued_at_ns": 1783044236621086200,
+  "metadata": {
+    "bundle_id": "14f8babc-3182-4131-b919-61241346d46f"
+  },
+  "payload_digest_set": {
+    "algorithms": [
+      "sha256",
+      "sha3_256",
+      "blake2b"
+    ],
+    "combined_digest": "b3ba0cdc378557be7ca497f3357e023a9db270fc6239a383d79f0ef4c74677f84ec56fc1469bb5500f8fd9d498c1e676acb75e153c74621dfd9237898648fe25",
+    "combiner_algorithm": "sha3_512",
+    "digests": {
+      "blake2b": "4e4ee6c2ac2d70475533170a916f3903b1b4f168b473b62a1d8dad750e2fafe6e0f7fd68795a7b75a7bcf899cc2f8abf39288dfaf91bfe04dd949546239e9ea1",
+      "sha256": "032f79d4f44be5b634204dc9bb1cad0353f3ce6a8f9eb520f4d7e8b4c7a1c90c",
+      "sha3_256": "6256e03824858c7a20ea802d7d6427a1500a717a4261d6a60d18e5ff1dc2ebb5"
+    }
+  },
+  "runtime_commitment": "b2c2b942b81b54f9117df12951b532c00f3eb5725c08ef24170b94fbec8d8753",
+  "runtime_id": "75d576a8-609a-453f-b8e9-d312cf50d125",
+  "signature_envelope": {
+    "envelope_id": "ddfe36b7-08c0-49ff-839d-035d9f9cbca0",
+    "issued_at_ns": 1783044236621086200,
+    "key_id": "044496126ec30ee26941ae72",
+    "metadata": {
+      "bundle_id": "14f8babc-3182-4131-b919-61241346d46f",
+      "payload_type": "unified_curvature_certificate",
+      "runtime": "0.1.0-unified-recognition-runtime"
+    },
+    "payload_digest_set": {
+      "algorithms": [
+        "sha256",
+        "sha3_256",
+        "blake2b"
+      ],
+      "combined_digest": "009600ce6635903c8440a67d8027f5a821381ca619f46ba2b9dabed5425f5580ef74d704e11db981806d14e688884a3846e3898558329b648da594a2e7e6013a",
+      "combiner_algorithm": "sha3_512",
+      "digests": {
+        "blake2b": "ecce615d4cfa6bef8f7189ed397a49d119e856dd76652941fe0bc01fec8f3879f4154a84a5581d434f7dfa5a0207c5caedf738113977716a453b90247db7e5f0",
+        "sha256": "34827ac8de1ac63f0d74f2a8311a9a62e687ad58ca812cdcb014a01fd6596a55",
+        "sha3_256": "5c21c4fd2d447f5eab5de0a086fb89eecae002205f1f633b55b4705de950bd61"
+      }
+    },
+    "payload_hash": "009600ce6635903c8440a67d8027f5a821381ca619f46ba2b9dabed5425f5580ef74d704e11db981806d14e688884a3846e3898558329b648da594a2e7e6013a",
+    "public_key_fingerprint": "044496126ec30ee26941ae72dd167a7496bedaed33b5b90fb15ea9f4baa9c56b",
+    "scheme": "hmac-sha256",
+    "signature": "5896935c80d0f6d5f3bb82b80f05166e838d2746641cd2f77671e05c5c631438",
+    "signature_hash": "9ccae477abb17cb17b357ac7f0c4023d2f7f46b0cac127f92e5721eefa3e7826",
+    "status": "ACTIVE_SHARED_SECRET"
+  },
+  "spectral_phase_packet": {
+    "context_hash": "0b0997dc4911318d62315916dad6ec43030412544a5d593647b9121366a57766",
+    "metadata": {
+      "bundle_id": "14f8babc-3182-4131-b919-61241346d46f",
+      "runtime": "0.1.0-unified-recognition-runtime"
+    },
+    "operator_trace": {
+      "energy": 1.7175865960601808,
+      "imag_trace": 1.4600370656714898,
+      "prime_log": 9.447071196798909,
+      "real_trace": -0.3316022849355187,
+      "spectral_radius": 1.497220193728722
+    },
+    "payload_hash": "032f79d4f44be5b634204dc9bb1cad0353f3ce6a8f9eb520f4d7e8b4c7a1c90c",
+    "phase_commitment": "1b55b33be8afbcf0cdddb1c76021dad79ef18619fa1e10f28e23b94f487209e2",
+    "phase_vector": [
+      1.7370394168378684,
+      2.3311929365811412,
+      0.8332689275680272,
+      4.563814830332957,
+      5.662770854110326,
+      2.5234985209671494
+    ],
+    "prime_index": 1514,
+    "prime_value": 12671,
+    "seed_hash": "8c88664433f0c5ca297b2553414fe1b286a9134e017e2af664812525c0fa07f65ccea9f6fcbe98543c5c9f649e9924259eea337417d4793aa99563fac1f0a83a",
+    "spectral_digest": "20840e5543615eaaf0f1d6095207b0912bdba10ed17fde64edc31561ca6a499abe67b38c29d389ceadc954839011b9f190d9250580f9fd7cc3e8858d3ca3993b",
+    "spectral_trace": 1.497220193728722,
+    "version": "0.1.0-spectral-prime-phase"
+  },
+  "technical_action": "CERTIFY_UNIFIED_RECOGNITION",
+  "verification_status": "CREATED",
+  "version": "0.1.0-unified-recognition-runtime"
+}

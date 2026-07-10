@@ -1,0 +1,56 @@
+{
+  "description": "Example 6 Lambda Cryptographic Coherence / Curvature-Safe Session Engine",
+  "note": "Demonstration of Recognition-Kernel verification layer, not a production cipher.",
+  "cases": [
+    {
+      "case": "Valid coherent phase",
+      "phase_coherence": 1.0,
+      "invariant_score": -1.0,
+      "curvature_gap": 0.0,
+      "tag_valid": true,
+      "replay_valid": true,
+      "decision": "ACCEPT_COHERENT_SESSION",
+      "technical_action": "Accept message and continue session."
+    },
+    {
+      "case": "Bounded phase drift",
+      "phase_coherence": 0.9800665778412416,
+      "invariant_score": -0.9800665778412416,
+      "curvature_gap": 0.019933422158758374,
+      "tag_valid": false,
+      "replay_valid": true,
+      "decision": "REJECT_TAMPERED_OR_PHASE_INVALID",
+      "technical_action": "Reject message, log anomaly, request new session."
+    },
+    {
+      "case": "Wrong phase reference",
+      "phase_coherence": 0.3623577544766736,
+      "invariant_score": -0.3623577544766736,
+      "curvature_gap": 0.6376422455233264,
+      "tag_valid": false,
+      "replay_valid": true,
+      "decision": "REJECT_TAMPERED_OR_PHASE_INVALID",
+      "technical_action": "Reject message, log anomaly, request new session."
+    },
+    {
+      "case": "Tampered ciphertext",
+      "phase_coherence": 1.0,
+      "invariant_score": -1.0,
+      "curvature_gap": 0.0,
+      "tag_valid": false,
+      "replay_valid": true,
+      "decision": "REJECT_TAMPERED_OR_PHASE_INVALID",
+      "technical_action": "Reject message, log anomaly, request new session."
+    },
+    {
+      "case": "Replay stale epoch",
+      "phase_coherence": 1.0,
+      "invariant_score": -1.0,
+      "curvature_gap": 0.0,
+      "tag_valid": false,
+      "replay_valid": false,
+      "decision": "REJECT_TAMPERED_OR_PHASE_INVALID",
+      "technical_action": "Reject message, log anomaly, request new session."
+    }
+  ]
+}

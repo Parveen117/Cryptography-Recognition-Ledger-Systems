@@ -1,0 +1,47 @@
+{
+  "clean": {
+    "certificate_hash": "2892e9485515fc15e27d057735a62147c78472b3f3edccab92e8f0fe7f5a8a05",
+    "classification": "ACTIONABLE_RESIDUE",
+    "determinant_holonomy": 1.9911381181985706,
+    "kappa_emk": 6.165056180631243,
+    "phase_residue": 2.491182757089856,
+    "sign_flip_residue": 0,
+    "technical_action": "REJECT_QUARANTINE_AND_ESCALATE"
+  },
+  "demo": "CURVATURE_SAFE_CRYPTO_DEMO_V1",
+  "tampered": {
+    "certificate_hash": "89e8253177da649f655b3e0e015706c48eea046995b9db7af0d12c8c2ae10042",
+    "classification": "ACTIONABLE_RESIDUE",
+    "determinant_holonomy": 1.9896297855023004,
+    "kappa_emk": 6.52671089064018,
+    "phase_residue": 2.491182757089856,
+    "recognition_residue": 0.51171875,
+    "sign_flip_residue": 0,
+    "technical_action": "REJECT_QUARANTINE_AND_ESCALATE"
+  },
+  "tests": "11 passed",
+  "verification": {
+    "clean": {
+      "certificate_hash": "2892e9485515fc15e27d057735a62147c78472b3f3edccab92e8f0fe7f5a8a05",
+      "certificate_id": "85e74545-92f9-45d0-a4cc-02fd37379802",
+      "classification": "ACTIONABLE_RESIDUE",
+      "determinant_holonomy": 1.9911381181985706,
+      "kappa_emk": 6.165056180631243,
+      "phase_residue": 2.491182757089856,
+      "sign_flip_residue": 0,
+      "technical_action": "REJECT_QUARANTINE_AND_ESCALATE",
+      "valid": true
+    },
+    "tampered": {
+      "certificate_hash": "89e8253177da649f655b3e0e015706c48eea046995b9db7af0d12c8c2ae10042",
+      "certificate_id": "28cd6b6e-08e8-4abe-b371-96f915df74d2",
+      "classification": "ACTIONABLE_RESIDUE",
+      "determinant_holonomy": 1.9896297855023004,
+      "kappa_emk": 6.52671089064018,
+      "phase_residue": 2.491182757089856,
+      "sign_flip_residue": 0,
+      "technical_action": "REJECT_QUARANTINE_AND_ESCALATE",
+      "valid": true
+    }
+  }
+}

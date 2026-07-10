@@ -1,0 +1,46 @@
+{
+  "certificate_hash": "fca57166774e7a0abf8b084c093ccb3a9605fbb67e7813ec575b46b7ca43af18",
+  "certificate_type": "CRYPTO_NATIVE_LEDGER_PROOF",
+  "hash_alg": "sha256",
+  "head_record": {
+    "chain_hash": "e63e358a8d759dc96d08c17a015d61575c3b1605a9ed4ae7e8b71cd86dffcdf0",
+    "hash_alg": "sha256",
+    "metadata": {
+      "expected": "actionable-residue-demo",
+      "source": "demo"
+    },
+    "observed_hash": "ae1114d0e8378dafd7ab0641528cc297c2c600ec462f7a23afe3b89d6f242134",
+    "payload_signature": "58c585279a8ddd778218ed730981f3649c1e6f043002bcde3996af83e9b8c93d",
+    "phase_hash": "da4f789e89a4ac907f64fd94540def561465dbc378c6038677965241a8a40894",
+    "previous_hash": "f1b1af50b2da6eeac6f7dd1976143c1c6a21814b816f37905a331d6c31dfc2fd",
+    "recognition": {
+      "classification": "ACTIONABLE_RESIDUE",
+      "dim": 256,
+      "recognized": false,
+      "residue_bits": 134,
+      "residue_ratio": 0.5234375
+    },
+    "record_hash": "cdf936f6e86f5a67ed45118d8bde954b2f1f645f9bf6cb587191533de84baf98",
+    "record_id": "9c69bb0c-ddbb-4ad4-a276-aef4bb6a23c2",
+    "root_hash": "861e72675444fc326e8daf15012eec3d3b6c63fe73177a7eb0104d5a2c2097c9",
+    "sequence": 3,
+    "signature_alg": "hmac-sha256",
+    "signer": "filing-node-demo",
+    "template_hash": "cc5a778210f720ef08f02b21106851062fa5174326221aeb9ec4d5e8ea1aa176",
+    "timestamp_ns": 1770000000000000003,
+    "version": "0.3.1-pro"
+  },
+  "issued_at_ns": 1770000000000009999,
+  "ledger_path": "CRYPTO_NATIVE_LEDGER_PRO_EVIDENCE/demo-ledger.jsonl",
+  "signature_alg": "hmac-sha256",
+  "verification": {
+    "actionable_residue": 3,
+    "bounded_residue": 0,
+    "head_chain_hash": "e63e358a8d759dc96d08c17a015d61575c3b1605a9ed4ae7e8b71cd86dffcdf0",
+    "recognized": 0,
+    "records": 3,
+    "valid": true,
+    "version": "0.3.1-pro"
+  },
+  "version": "0.3.1-pro"
+}

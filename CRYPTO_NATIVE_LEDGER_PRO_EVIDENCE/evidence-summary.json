@@ -1,0 +1,14 @@
+{
+  "certificate_hash": "fca57166774e7a0abf8b084c093ccb3a9605fbb67e7813ec575b46b7ca43af18",
+  "classification_counts": {
+    "actionable_residue": 3,
+    "bounded_residue": 0,
+    "recognized": 0
+  },
+  "created_for": "public technical verification and reproducibility",
+  "demo_secret": "b64:Y3J5cHRvLW5hdGl2ZS1sZWRnZXItcHJvLWRlbW8tc2VjcmV0LTIwMjY",
+  "demo_secret_notice": "The included demo secret is intentionally non-production and only allows local verification of this evidence package.",
+  "evidence_package": "CRYPTO_NATIVE_LEDGER_PRO_EVIDENCE",
+  "head_chain_hash": "e63e358a8d759dc96d08c17a015d61575c3b1605a9ed4ae7e8b71cd86dffcdf0",
+  "ledger_records": 3
+}

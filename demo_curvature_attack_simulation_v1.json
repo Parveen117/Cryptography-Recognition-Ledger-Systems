@@ -1,0 +1,161 @@
+{
+  "attacks": [
+    {
+      "attack": "clean_control",
+      "certificate_hash": "aac480b43fa0ecae7fd69b2734a785022c718514b4022f37ff04a0be2bb77a15",
+      "classification": "RECOGNITION",
+      "detected": false,
+      "determinant_holonomy": 1.9911381181985706,
+      "extra": {},
+      "kappa_emk": 6.165056180631243,
+      "phase_residue": 2.491182757089856,
+      "reason": "control certificate created without observed tamper",
+      "recognition_residue": 0.0,
+      "sign_flip_residue": 0,
+      "technical_action": "CERTIFY_AND_COMMIT"
+    },
+    {
+      "attack": "byte_tamper",
+      "certificate_hash": "745702c78a54562ca387522066158b2376c5fddc6eb3b2f604a3477c0e1700d9",
+      "classification": "RECOGNITION",
+      "detected": true,
+      "determinant_holonomy": 1.9920964716964003,
+      "extra": {},
+      "kappa_emk": 5.773993125533918,
+      "phase_residue": 2.491182757089856,
+      "reason": "observed payload differs from root payload",
+      "recognition_residue": 0.51953125,
+      "sign_flip_residue": 0,
+      "technical_action": "CERTIFY_AND_COMMIT"
+    },
+    {
+      "attack": "replay_context",
+      "certificate_hash": "cdcde7eb910c15a5c0758a049244a842d7f0591b09eadbee4c9158264b9c45ca",
+      "classification": "RECOGNITION",
+      "detected": true,
+      "determinant_holonomy": 1.993928663389468,
+      "extra": {},
+      "kappa_emk": 6.527681070368072,
+      "phase_residue": 2.446309377097183,
+      "reason": "same payload replayed under changed phase/context",
+      "recognition_residue": 0.0,
+      "sign_flip_residue": 0,
+      "technical_action": "CERTIFY_AND_COMMIT"
+    },
+    {
+      "attack": "phase_poisoning",
+      "certificate_hash": "02ddb5b027a1d748fead0739110b3ef01ece94d01cab36d39f87511033dbd87d",
+      "classification": "RECOGNITION",
+      "detected": true,
+      "determinant_holonomy": 1.4406109207117266,
+      "extra": {},
+      "kappa_emk": 3.248788124386578,
+      "phase_residue": 0.75558690086838,
+      "reason": "phase binding changed",
+      "recognition_residue": 0.0,
+      "sign_flip_residue": 0,
+      "technical_action": "CERTIFY_AND_COMMIT"
+    },
+    {
+      "attack": "sign_flip_mismatch",
+      "certificate_hash": "6122eccae24ebdb3e21389e105b6b1edab076f4c123d24eaa2cc32f656966830",
+      "classification": "BOUNDED_RESIDUE",
+      "detected": true,
+      "determinant_holonomy": 1.9922760543811546,
+      "extra": {},
+      "kappa_emk": 7.515428887214357,
+      "phase_residue": 2.491182757089856,
+      "reason": "expected observation sign transition differs from observed transition",
+      "recognition_residue": 0.546875,
+      "sign_flip_residue": 1,
+      "technical_action": "CERTIFY_WITH_WARNING_AND_MONITOR"
+    },
+    {
+      "attack": "fake_flat_holonomy",
+      "certificate_hash": "a65129c5a063ce95b3c2e624162a0842f551fa5b24db5d7d66210d4b4e79cdad",
+      "classification": "RECOGNITION",
+      "detected": true,
+      "determinant_holonomy": 0.0,
+      "extra": {},
+      "kappa_emk": 1.7970413143050727,
+      "phase_residue": 2.491182757089856,
+      "reason": "attacker forces locally flat path but observed payload still changes residue/sign/phase",
+      "recognition_residue": 0.48046875,
+      "sign_flip_residue": 0,
+      "technical_action": "CERTIFY_AND_COMMIT"
+    },
+    {
+      "attack": "certificate_splicing",
+      "certificate_hash": "aac480b43fa0ecae7fd69b2734a785022c718514b4022f37ff04a0be2bb77a15",
+      "classification": "REJECTED",
+      "detected": true,
+      "determinant_holonomy": 1.9911381181985706,
+      "extra": {
+        "spliced_observed_hash": "7f4db1f0a850b1b6b2ea4d4ce7f5fe5f0c0452ac2fe6f40028e715446f19a470"
+      },
+      "kappa_emk": 6.165056180631243,
+      "phase_residue": 2.491182757089856,
+      "reason": "verification rejected spliced certificate: certificate_hash mismatch",
+      "recognition_residue": 0.0,
+      "sign_flip_residue": 0,
+      "technical_action": "REJECT_TAMPERED_CERTIFICATE"
+    }
+  ],
+  "digest_agility": {
+    "base_digest_set": {
+      "algorithms": [
+        "sha256",
+        "sha3_256",
+        "blake2b"
+      ],
+      "combined_digest": "f1fdab1de333e8fc321b6984e7b4e66c1713501f6d424e3b415439020d2015b3660f96759b533599cd4683c6c0d15dfd007d758a0e2db683f06170e5ca1a3964",
+      "combiner_algorithm": "sha3_512",
+      "digests": {
+        "blake2b": "7954ced6bd8e6ee9604b1a8e3777ff670ccbf1e787aef8d0f37a91b01e3b7950d62e960c3518f967dea83e4f7d9c73918cef8bd1f0a00ab257d66e2fe9ddeac0",
+        "sha256": "dc52609713d67094980e42f726390cd39f64cd19c2304b807af22ab1bdf0f66c",
+        "sha3_256": "6b69ffa35a764173651750133d53222c2d632f86f16856dd06000e4f9583836c"
+      }
+    },
+    "tamper_avalanche": {
+      "algorithms": [
+        "sha256",
+        "sha3_256",
+        "blake2b"
+      ],
+      "distances": {
+        "blake2b": {
+          "base_digest": "7954ced6bd8e6ee9604b1a8e3777ff670ccbf1e787aef8d0f37a91b01e3b7950d62e960c3518f967dea83e4f7d9c73918cef8bd1f0a00ab257d66e2fe9ddeac0",
+          "bits_different": 261,
+          "changed_digest": "cc461ba4af8c6d986a180ce87dbb83f6cc6ad9351401439ac9da378cca2a59560546d7b75652228c56b78f369ad18e7a62e453a79f5c5f85c0c48bc4902105b7",
+          "ratio": 0.509765625,
+          "total_bits": 512
+        },
+        "sha256": {
+          "base_digest": "dc52609713d67094980e42f726390cd39f64cd19c2304b807af22ab1bdf0f66c",
+          "bits_different": 141,
+          "changed_digest": "84be6e966d7a93ed5070d4d740cbc7a698bafadaba9f15aae329d24817532bd0",
+          "ratio": 0.55078125,
+          "total_bits": 256
+        },
+        "sha3_256": {
+          "base_digest": "6b69ffa35a764173651750133d53222c2d632f86f16856dd06000e4f9583836c",
+          "bits_different": 134,
+          "changed_digest": "0f53d071de3a7e96db271fee0b2c7aa4f03b6976f8cd21e172fdb45125c137c1",
+          "ratio": 0.5234375,
+          "total_bits": 256
+        }
+      }
+    }
+  },
+  "issued_at_ns": 1782990149828535400,
+  "report_id": "0e49fc03-c2b6-48a6-b01c-c1d55cf4825d",
+  "summary": {
+    "all_attacks_detected": true,
+    "clean_certificate_hash": "aac480b43fa0ecae7fd69b2734a785022c718514b4022f37ff04a0be2bb77a15",
+    "control_classification": "RECOGNITION",
+    "detected_attacks": 6,
+    "missed_attacks": 0,
+    "total_attacks": 6
+  },
+  "version": "0.2.0-attack-simulator-calibrated"
+}

@@ -1,0 +1,53 @@
+{
+  "certificate_hash": "b834cdb8a21792371d9ece713787e1bce8ff9e1fd4f922dc1c71c8e93d053d8f",
+  "certificate_id": "59ee1c5b-63d0-4ea7-82be-4cc4614f2d5b",
+  "classification": "ACTIONABLE_RESIDUE",
+  "determinant_holonomy": 0.7987991549970415,
+  "emk_packet": {
+    "a": 0.6924849463842075,
+    "additive_determinant": 0.503368348351732,
+    "b": 0.026460210740673396,
+    "c": 0.18950736358284653,
+    "d": -0.10667685183153414,
+    "delta_parallel": 0.47883525821629797,
+    "delta_perp": 0.0245330901354341
+  },
+  "expected_sign_product": 1,
+  "issued_at_ns": 1783044236621086200,
+  "kappa_emk": 3.9656128915178805,
+  "metadata": {
+    "bundle_id": "14f8babc-3182-4131-b919-61241346d46f",
+    "runtime": "0.1.0-unified-recognition-runtime",
+    "signer": "unified-runtime"
+  },
+  "observed_hash": "628d630b1034779599930c6c4961a6d40af3875caf7adec4a9af89f6db7cba88",
+  "observed_sign_product": 1,
+  "phase_hash": "5920f373a34a374ee1071bf1b9ebd0a698b6265fa03caea3109c82f48816e520",
+  "phase_residue": 0.3183553016282392,
+  "policy": {
+    "alpha_curvature": 1.0,
+    "beta_delta_perp": 1.0,
+    "chi_memory": 0.5,
+    "gamma_holonomy": 1.0,
+    "ledgered_upper": 0.7,
+    "mu_residue": 1.0,
+    "tau_curvature": 0.2,
+    "tau_delta_perp": 0.08,
+    "tau_holonomy": 0.08,
+    "tau_kappa": 0.35,
+    "tau_phase": 0.08,
+    "tau_sign": 0.0
+  },
+  "recognition_residue": 0.0,
+  "root_hash": "628d630b1034779599930c6c4961a6d40af3875caf7adec4a9af89f6db7cba88",
+  "rotation_curvature": 2.571436873005047,
+  "seam_memory": 1.1416875467607148,
+  "sign_after": 1,
+  "sign_before": 1,
+  "sign_flip_residue": 0,
+  "signature": "103f21a848467f8730bcac99dfbc7f2195b8f312b449c06a55a10976fd618626",
+  "technical_action": "REJECT_QUARANTINE_AND_ESCALATE",
+  "template_hash": "4efdeac58d8c3157db8c3b08fc941f13d85b965f00074c219eb8a1c6ef2fbe20",
+  "version": "0.1.0-curvature-safe",
+  "visible_digest": "a492bcdb20a384b759e6ff9357f1f2a92d27333c03996ded50455d0308d4e437"
+}
