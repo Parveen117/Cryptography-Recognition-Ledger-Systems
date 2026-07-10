@@ -3,10 +3,11 @@ message: "If you use or discuss this software, please cite the repository and th
 title: "Cryptography Recognition and Ledger Systems"
 type: software
 version: 1.0.0
+date-released: "2026-07-11"
 authors:
   - family-names: "Dabas"
     given-names: "Monty"
-repository-code: "https://github.com/Parveen117/Cryptography"
+repository-code: "https://github.com/Parveen117/Cryptography-Recognition-Ledger-Systems"
 abstract: "A cryptographic recognition, certificate, residue-evaluation, curvature-safe verification, and append-only ledger implementation presented as a domain embodiment of a reusable state-recognition and control architecture."
 keywords:
   - cryptography
