@@ -1,0 +1,681 @@
+{
+  "schema_version": 1,
+  "repository": "Parveen117/Cryptography-Recognition-Ledger-Systems",
+  "recorded_at_utc": "2026-10-26T14:24:22.218045+00:00",
+  "scope": "Default-branch content immediately before the 2026-10-26 provenance update.",
+  "baseline_branch": "main",
+  "baseline_commit": "2cc47c53f453e49c92f8d4bdb9d1f49408239405",
+  "baseline_tree": "96c285a59233768d70b9cf811e8c3bd0bf8800bf",
+  "baseline_commit_url": "https://github.com/Parveen117/Cryptography-Recognition-Ledger-Systems/commit/2cc47c53f453e49c92f8d4bdb9d1f49408239405",
+  "git_object_hash_algorithm": "sha1",
+  "content_hash_algorithm": "sha256",
+  "limits": [
+    "Git timestamps are metadata, not independent trusted timestamps.",
+    "This manifest excludes its own later provenance update.",
+    "A prior DOI covers its archived version, not later commits.",
+    "Hashes establish content identity, not scientific validity, authorship adjudication, or legal priority."
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/crypto-native-ledger-pro.yml",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "216868c50a4d7700c8065353dfc0c087a41a809e",
+      "size_bytes": 1064,
+      "sha256": "c69e17012b464eddaa9b64b9b76f7f1bd43469fd9ab7c9ec6066eb8acea7ba71"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "bef21b6dede13896f3b57f5285abbce101e76353",
+      "size_bytes": 396,
+      "sha256": "0d8c53b10e99214429d6638686305069b1a8290fad0be62d2ed334d6aa34fdc4"
+    },
+    {
+      "path": "CAPTION_ENABLEMENT_06_Lambda_Crypto_Curvature_Safe_Session.txt",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "0c4874611b92fb1dd7d48e45747fb044764e405a",
+      "size_bytes": 1039,
+      "sha256": "6b018f86fb64d5d8151913978f7bf329a4ebbe6858cea6798e12fc8751d3feb0"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "2173e94a92cf2f5bf6c9169640e8b1f0e7246eb5",
+      "size_bytes": 952,
+      "sha256": "f91fb5f5dcea166a5a6a94c20f54d89dd5a5739307d73015f5ed56ac6cc2cc90"
+    },
+    {
+      "path": "COPYRIGHT_NOTICE.md",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "d4c24394d4c06c9c816758c5628f8d97e84efdae",
+      "size_bytes": 654,
+      "sha256": "d723c2745ab25282a91faeac9822c6f5d0c4fc846dd5a2e26a480dbda01a3e36"
+    },
+    {
+      "path": "CRYPTO_NATIVE_LEDGER_PRO_EVIDENCE/README_EVIDENCE.md",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "3d86bfe225972fb8da64788d8599b685b105bb48",
+      "size_bytes": 3245,
+      "sha256": "4c14e6f2e8a3c0adc61db2255324fed407b57384c8ae93e5a0db3099e06ec0b1"
+    },
+    {
+      "path": "CRYPTO_NATIVE_LEDGER_PRO_EVIDENCE/demo-certificate.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "7d118a2e93b049180d29ce5b2bdfe534a509586a",
+      "size_bytes": 1836,
+      "sha256": "b16a0932df49db34c0c3782bcf425529073d0d35682c79e922414723ecdce188"
+    },
+    {
+      "path": "CRYPTO_NATIVE_LEDGER_PRO_EVIDENCE/demo-ledger.jsonl",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "cd285eb8d55e45f011bbcce8a5659c221aecc03a",
+      "size_bytes": 3143,
+      "sha256": "fa19348a9d2722ffe0c1d8dd4093dd6d9f6c1577645a5174f38d617429af313b"
+    },
+    {
+      "path": "CRYPTO_NATIVE_LEDGER_PRO_EVIDENCE/evidence-summary.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "bebbc0d2fb7abd12615e639c084480250da34e8a",
+      "size_bytes": 668,
+      "sha256": "e5fadc0d811438e6ba602d82f42d6ba3a028493336410e1cd4123e87c18c6c6a"
+    },
+    {
+      "path": "CRYPTO_NATIVE_LEDGER_PRO_EVIDENCE/tamper-test-report.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "06770f3002fc3cf409f2eaea6b3ca2152900baff",
+      "size_bytes": 374,
+      "sha256": "cba90906f4bd0a275e10994930e2eb197f4b24be6683c9685b2216922f80cf33"
+    },
+    {
+      "path": "Cryptography.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "79203476d69e045e2ab0b4678ba51ea0b8d07c3c",
+      "size_bytes": 11721,
+      "sha256": "50595ba872b4813e184245d0a85b41dc832fd7a22570c14043decebd09fc4e48"
+    },
+    {
+      "path": "FIG_ENABLEMENT_06A_Lambda_Crypto_Phase_Coherence_Curvature_Gap.png",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "28fa7b58654ba719b4c0b1b4e6d3859dd00cdf4c",
+      "size_bytes": 241717,
+      "sha256": "3e15d9345a66566c37b97f23e622598f713856408c3bc40ea1d2a70c9e7ade2e"
+    },
+    {
+      "path": "FIG_ENABLEMENT_06B_Lambda_Crypto_Verification_Technical_Action_Result.png",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "8b0f9ecd15e44780ec63798b286a5fd01b8ccfe3",
+      "size_bytes": 214562,
+      "sha256": "f89de178baa1fa88b10d19d25b6dcc2eda4e19b827dca6fc5fc657ed4f7f969d"
+    },
+    {
+      "path": "FIG_PATENT_11_Lambda_Crypto_Curvature_Safe_Session_Pipeline.png",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "7c822622a1dfd30abbc4699c6e0ffa112704d4b5",
+      "size_bytes": 156251,
+      "sha256": "e7519d391a26a82d4064aa08faac57bea3a32eef87e81bfff899ee7543accb2e"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "d18701927b5ac8cfe9b0ed73708d67df88529abe",
+      "size_bytes": 804,
+      "sha256": "51d9a37651e13f90334872530ba9b28ce5a7749b4d15569cb1f38eb96b121c57"
+    },
+    {
+      "path": "PATENT_NOTICE.md",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "0d14959dc041b920e843882231fa425748bd2408",
+      "size_bytes": 825,
+      "sha256": "de44b9c7018ecd93e65eedea83555852cd386af657d206b6c5746f34a73a13e7"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "3c0bb2e8325c5925d63d3b1f82757fa73e295b26",
+      "size_bytes": 6458,
+      "sha256": "08c48b8abb02f61c41027b4336270fb54f1788bf25675145e4942eac7f15ec3b"
+    },
+    {
+      "path": "README_CRYPTO_NATIVE_LEDGER_PRO.md",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "0e686e840209738e6586e38ff7b22cc210f857dd",
+      "size_bytes": 4299,
+      "sha256": "dcffdde0d4c139b4b482cfd325f5f84c8bf7d41c41de40662861445cd9002631"
+    },
+    {
+      "path": "README_CURVATURE_SAFE_CRYPTO.md",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "cc8156b86f42a51a56ac5c1d997873b17e6cb63d",
+      "size_bytes": 3581,
+      "sha256": "265b7a3871e37455d1e9a56633b6f1a5543822a36b4b37543189dbe40eee6e5f"
+    },
+    {
+      "path": "RESULT_ENABLEMENT_06_Lambda_Crypto_Coherence_Result.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "11d2358e5cfe7e976f8764497a1945cc107d239a",
+      "size_bytes": 1903,
+      "sha256": "d3905f22eaf3e1b1287c83245fbbc1688ef2dd4db29686a965de1f1b9ed70dcd"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "3e4883c0c999572f2f67c097a16700b5c1b4e720",
+      "size_bytes": 2083,
+      "sha256": "4c6b273e340f04cee30f52429324119388be18ea98edf0767fdf15e0ec7172a0"
+    },
+    {
+      "path": "crypto_native_ledger_pro/__init__.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "f56b5c3cbf83a52736f338b06367783e1d21893c",
+      "size_bytes": 746,
+      "sha256": "a11dc9571777c145c3283896335fe15ca73b28e3089f74bdd89ba4907faa12c7"
+    },
+    {
+      "path": "crypto_native_ledger_pro/anti_seam_completion.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "ed4d435ff03e20fd2aaa85d53b016ea4686ee1cf",
+      "size_bytes": 6455,
+      "sha256": "174bff47d9077cb561d8f4c93645f7b2c7d4bb395bb9556e30d7dd1a0936d586"
+    },
+    {
+      "path": "crypto_native_ledger_pro/attack_simulator.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "abf72ced8e97dbeb883a9045513e95d537c745ac",
+      "size_bytes": 11447,
+      "sha256": "de12a29cc2a322cc863764eb23a968770f4e39ae1944da5ecf446b29e1126be4"
+    },
+    {
+      "path": "crypto_native_ledger_pro/cli.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "96c8110f4e0dd72419ee256714606f71d5ae0354",
+      "size_bytes": 164,
+      "sha256": "c6471350585d0e87b2cf8c98e244066f3dffd2d091b71d9562d893188077ff68"
+    },
+    {
+      "path": "crypto_native_ledger_pro/curvature_cli.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "6be4eee839c97dcea85a7061dc453ca5a7394c35",
+      "size_bytes": 169,
+      "sha256": "094e02b8cd62bc1f6cc61ec6e67c9ff2660d29a6a6c26609de161a29b1544410"
+    },
+    {
+      "path": "crypto_native_ledger_pro/curvature_safe.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "16a24439d7268729ba0ce380cdc5dd7a377bb70a",
+      "size_bytes": 16198,
+      "sha256": "ef6c1be03b241c93ad251ae33a5be8ce4bcbca2a78e33d233e90b7a1aff8dcb8"
+    },
+    {
+      "path": "crypto_native_ledger_pro/evidence_bundle.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "15a1effa962d67ff8e5a329f3fb8acfb4ffb73aa",
+      "size_bytes": 8238,
+      "sha256": "e4f0d5b45eaf733fff5c8b6f43bfa4e1d2a29ac99c1d50da7db9b28d21b8a879"
+    },
+    {
+      "path": "crypto_native_ledger_pro/hash_agility.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "4499fd39f63acd90cef0cfba5ed6dc466019f6b6",
+      "size_bytes": 4780,
+      "sha256": "b2307523ccd436416c09f46f8b47ed2917a8b59d7743956da96d04465261b244"
+    },
+    {
+      "path": "crypto_native_ledger_pro/ledger.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "f0433aa961ee409278dbbdc0d9f85ac5856d05fd",
+      "size_bytes": 16384,
+      "sha256": "c3e9d70188d593feeea16b522e31469c263e6c01cffb17cce15eef610610eef7"
+    },
+    {
+      "path": "crypto_native_ledger_pro/pq_signature_adapter.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "dd28318d597b262cb30d3191a20a1a1e8062dead",
+      "size_bytes": 10372,
+      "sha256": "adcee16fa56630c43dcc369d114a8f47146bad7c163bbe4260970fee87ae1937"
+    },
+    {
+      "path": "crypto_native_ledger_pro/spectral_prime_phase.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "0c272b48d863e665f7d9102b76d3d451a8d60bf7",
+      "size_bytes": 8287,
+      "sha256": "3c2b70fee9d2ee06c215adce4acba496b6666721a5a288c1a1b78fd37463a9dd"
+    },
+    {
+      "path": "crypto_native_ledger_pro/theory_kernel.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "5f89eebf38197959cb4617e56cf93c5ab46adbcf",
+      "size_bytes": 11158,
+      "sha256": "5b46f5a97b5cbba0ad99576ef41e6d43a73355aebb5a71c2ac0afba4e73ef4a4"
+    },
+    {
+      "path": "crypto_native_ledger_pro/theory_verifier.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "ee0dba6d6faca7ef26a4fa8acbfb00e857b0117f",
+      "size_bytes": 10719,
+      "sha256": "de69c964970d93673536c13b3bf4f01881cd23ef134723d470d71743d929a707"
+    },
+    {
+      "path": "crypto_native_ledger_pro/unified_attack_simulator.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "4b2cf69d7bafba14f5c5562826191ed9cf5a1e22",
+      "size_bytes": 8343,
+      "sha256": "ffbeca0b9f09e9ffb35c89ffeb59b6091fbeb8faac268d073cfcc7c7397610b5"
+    },
+    {
+      "path": "crypto_native_ledger_pro/unified_runtime.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "d98710f5c48c268a720a269f97899648aa03b99c",
+      "size_bytes": 8590,
+      "sha256": "d96a2279a1614c5b261bd244b5349de799184a425bd248d346a355e071e9be6f"
+    },
+    {
+      "path": "crypto_native_ledger_pro/verify_bundle.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "327f446630363d2d8b5d7839197ef1294f9cd68c",
+      "size_bytes": 8289,
+      "sha256": "b97c6a54802492613251542dbe4324f00e7bb6070f5151c4e93ba67d477df9ce"
+    },
+    {
+      "path": "crypto_native_ledger_v2.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "d6bc7e8cc391f2f37f908b6e256f9038a3ccc75c",
+      "size_bytes": 5558,
+      "sha256": "c272b5256ee6d99666e243a9327a1e7f95d8277b2ddaa33f6b57974dede8e047"
+    },
+    {
+      "path": "demo_curvature_attack_report.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "5d75dca75680a57d08d23ce1ed5ff779dd360789",
+      "size_bytes": 1794,
+      "sha256": "6a684819c616cf95708ebe5cd5ec0f70782d6d3eddb0c5c1eeeada4dec3664b1"
+    },
+    {
+      "path": "demo_curvature_attack_simulation_v1.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "ec1446772c48a26a4429316270ab63942e5ae6c1",
+      "size_bytes": 6267,
+      "sha256": "6dbbd51d2630c52592ce292dd20e9495a1078a7d9cd7d13a7f4c4dcc9f4e2a53"
+    },
+    {
+      "path": "demo_curvature_certificate_clean.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "b8d17d12f2e208e6c5fcecf15c9dd57ed4dab4ce",
+      "size_bytes": 1836,
+      "sha256": "a5ef254ed5883863532cb5019403a1e32ee9b5d4441c5732234a3f215e2d9dc4"
+    },
+    {
+      "path": "demo_curvature_certificate_tampered.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "bb2fbc3e238d00ad2c24557d9c293212e6c82940",
+      "size_bytes": 1843,
+      "sha256": "50779f09de3b9e9179e316b05c9c85ac6aee11c1b1b6f3cfa46aa5a2d37c2e3c"
+    },
+    {
+      "path": "demo_curvature_safe_summary.md",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "c52ee53c1d5d058cfdf31b90e2ec7240eb2c1b48",
+      "size_bytes": 1109,
+      "sha256": "214122d2a7587390bfdec4888532238f1736b32516c38e56675b1b5bb2e694df"
+    },
+    {
+      "path": "demo_unified_attack_simulation_v1.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "feef3a1ad87bd5b0f4d85467f6c73894f309ceaa",
+      "size_bytes": 3506,
+      "sha256": "50ebc4051aab4adb493333d3cd9159ee984b1d002d13e4f0baecf9526ba38912"
+    },
+    {
+      "path": "docs/LEVEL_13_THEORY_KERNEL_DESIGN.md",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "42d7e4fe40e53c0f5414ff4e0503df6a2af1988e",
+      "size_bytes": 8459,
+      "sha256": "da367a38da3a407f53702a7c73ea9c37f3ddd9f17b131e41e8b0d715f053eff3"
+    },
+    {
+      "path": "docs/PUBLIC_RELEASE_BOUNDARY.md",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "e9c17554466aaf3c395919aa58232a3158ff100c",
+      "size_bytes": 3578,
+      "sha256": "f5f75fb6dc72e528138460e1844d305f2d7bd4bd34f3f24959294034b05096d7"
+    },
+    {
+      "path": "docs/RECOGNITION_PLATFORM_CRYPTOGRAPHY_APPLICATION.md",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "b5530eb239a1341679f86cfb949e9bdb92b5bc83",
+      "size_bytes": 6506,
+      "sha256": "6840ba6929a57172949903bee4dd603950d214390ef1d241dca1500b09520b28"
+    },
+    {
+      "path": "evidence_bundle_v1/README_EVIDENCE_BUNDLE.md",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "b64f5bc2d004e458d75eae15a45edb20c76def63",
+      "size_bytes": 895,
+      "sha256": "a1f18e0db9d9148b859774f680af99c1ca5663a4e7056dd2dab0c2487ca09a40"
+    },
+    {
+      "path": "evidence_bundle_v1/anti_seam_completion.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "9b6af39c2bc7294f9f648fca1ce74b0ec0bcdce1",
+      "size_bytes": 1054,
+      "sha256": "5a237cfb6866bd7e05af5c6b5c93f88d9141adba1c3d5b24171828a95c9d4432"
+    },
+    {
+      "path": "evidence_bundle_v1/context.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "53a2e5b099696b5e8752d7d883e3b0a2910c03fe",
+      "size_bytes": 112,
+      "sha256": "e0755bd46f1cba3deda91b00dd6d6fb9ee40369297f30afdc8810cf139719fb5"
+    },
+    {
+      "path": "evidence_bundle_v1/curvature_certificate.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "d6a99b6997e33a3dc61543ff8ad06ef90d73fb19",
+      "size_bytes": 1948,
+      "sha256": "549074fb76545e4b7133592faf7b4907b0091afe64bd7d907c75af395f3e66d0"
+    },
+    {
+      "path": "evidence_bundle_v1/ledger_anchor.jsonl",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "321b84af40fcfa59d05a7546a75138c86efba77e",
+      "size_bytes": 1995,
+      "sha256": "e57baa5a39777745d716be78266a4f5046c173cf51d4a4b02ca25533a910fe79"
+    },
+    {
+      "path": "evidence_bundle_v1/manifest.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "1775c1208e233fd0035e5805bc6df031973fcccd",
+      "size_bytes": 1603,
+      "sha256": "27172926a7442a42898b01f93eafdc995d1281a04589e2e14143902c9d8c764e"
+    },
+    {
+      "path": "evidence_bundle_v1/payload.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "47e3124225e3b62260dbfdb4e6194a553f27ae25",
+      "size_bytes": 78,
+      "sha256": "1757c5d07c8284343ec38d8be6e77a750744a584777de3f7db2a770ef8d16da0"
+    },
+    {
+      "path": "evidence_bundle_v1/payload_digest_set.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "c8ee8d8699e32a4058b2a80da0b114b0796fc68a",
+      "size_bytes": 591,
+      "sha256": "7d7948ee63bb20867e8dfadb5a822f2f29522a25a4195295ab497170edab729a"
+    },
+    {
+      "path": "evidence_bundle_v1/sha256_manifest.txt",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "2aabdd3a5ecebd7499db705b8452339b0c52e72b",
+      "size_bytes": 1077,
+      "sha256": "83b395b54f4438f676f6c0a1e9661af4b34d1138cb7aa8eae88b3fb4ca2f5fee"
+    },
+    {
+      "path": "evidence_bundle_v1/signature_envelope.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "8b6b1e5f3419ac3c9b01495cd1d190e62937c208",
+      "size_bytes": 1443,
+      "sha256": "28bc1df90daf9833328da69c4e8767c174b54e59b75a5fc95388241d855d47f9"
+    },
+    {
+      "path": "evidence_bundle_v1/spectral_phase_packet.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "de30e6874c452a3a3cd43ff3d517e726f1ab20f4",
+      "size_bytes": 1204,
+      "sha256": "403c2987c87f2c3488e7fc5c5dc94b399ce610217281b63a4154bddeae39b8d3"
+    },
+    {
+      "path": "evidence_bundle_v1/unified_attack_report.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "ffeca3dec083ca473cc452c3555b9f5cb0617756",
+      "size_bytes": 3506,
+      "sha256": "30788fdad2cf05f18a83371dea065fb5dec385407baa6655bdfa1dd59ceb8ea7"
+    },
+    {
+      "path": "evidence_bundle_v1/unified_certificate.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "49d2cc6799dd6fa692b70dbc2ce2e5c62271e3b2",
+      "size_bytes": 7711,
+      "sha256": "844fdc69dbc0cc28db72ad2ea7271db1c6384c4fdc72432e4861cfd05a43de66"
+    },
+    {
+      "path": "evidence_bundle_v1/unified_verification_report.json",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "1457d85f273c572f0e9024361b625b636fd394c0",
+      "size_bytes": 1958,
+      "sha256": "9eae66ef2d79ed30acf1c35e1d044b62ef9d6c397b249e0d32638a0f9874c32a"
+    },
+    {
+      "path": "tests/test_anti_seam_completion.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "7ba28db844820014b7b01c84016df8f9be9867f3",
+      "size_bytes": 3967,
+      "sha256": "e166911f320d5e7fcb8997603e95c8570708c755724423cf9cd54ebb6ccf77e2"
+    },
+    {
+      "path": "tests/test_crypto_native_ledger_pro.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "7c7367949f1b81213686dab47d052476be07c1fa",
+      "size_bytes": 3034,
+      "sha256": "0bcd48186d6e81f9fb3bf37d87603749856d107386b89750c560026816457368"
+    },
+    {
+      "path": "tests/test_curvature_safe_crypto.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "4646d331bd25a314d989f78f7decc2734b1a9a84",
+      "size_bytes": 3768,
+      "sha256": "cd4fa8beb862da8011497a0dd7685514b3b90e96d5eb8e95fc722b3a6c079d34"
+    },
+    {
+      "path": "tests/test_evidence_bundle.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "c3960dc7ff7d1433983158baf6c2e3a2e3af8a24",
+      "size_bytes": 3265,
+      "sha256": "c2367b3b4c8f699771c4b82b77afb64bcf63bbf2bd16512e6cd4286d54b13759"
+    },
+    {
+      "path": "tests/test_hash_agility_and_attack_simulator.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "f998841f1f756eeafe60d7216d5b85e761157e8d",
+      "size_bytes": 1846,
+      "sha256": "5a25a5e2be23f6a5d4ae1374247adf4dff519651f9c14055c67a5add57e0b69a"
+    },
+    {
+      "path": "tests/test_pq_signature_adapter.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "59e117b4e3a3f3cbfcedf61bf8eda7ee10363526",
+      "size_bytes": 3087,
+      "sha256": "3c29bb638dc67010dac51641d2e6d9aedf27044c73d23f69bf453e80a2f76e26"
+    },
+    {
+      "path": "tests/test_spectral_prime_phase.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "86bf424015d082a423dd2118f79404ee448ec537",
+      "size_bytes": 2605,
+      "sha256": "67ab5ff5e171354c7063471801e1f3bd9ab1338cd8ccb55eb77c09bc5bf9b9c3"
+    },
+    {
+      "path": "tests/test_theory_kernel.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "fa0c8509ba4e5055e0f321e762ad434784e52b73",
+      "size_bytes": 3679,
+      "sha256": "1b2d518f274d854a1126ebe288416a4d656289848ba52213e2e16a6c7f2a7872"
+    },
+    {
+      "path": "tests/test_theory_verifier.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "b3428973686a6c2bad43e20d49007b5236dcc12f",
+      "size_bytes": 2917,
+      "sha256": "ad56b4a8c5aeef56c4338dddaccf9fdbcc916c93c50e0161fa7ca82df62c5ea8"
+    },
+    {
+      "path": "tests/test_unified_runtime.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "f1e6ade1a992e16523ec63e2cb043d1d77eafb0e",
+      "size_bytes": 3784,
+      "sha256": "039e019acfda0f9f9d09b31fb66fdc264e52dd6f9a9689a305065dbbbcfcd165"
+    },
+    {
+      "path": "tests/test_unified_runtime_simulator.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "abf24e62d55e8d52cc95104f978bdf682c53d124",
+      "size_bytes": 1592,
+      "sha256": "7ec0ae3c4c08c71f875a48221a3bdad5409f44d0d5416c52afc56df8e5380232"
+    },
+    {
+      "path": "tests/test_verify_bundle.py",
+      "mode": "100644",
+      "git_object_type": "blob",
+      "git_object_sha1": "479667e8375ae791859204c3627f3a2e9efdfaa9",
+      "size_bytes": 2901,
+      "sha256": "76b2335216747f5d50281b79f1d26df7f23b364405ee93397cbc804f69ec4d1b"
+    }
+  ],
+  "published_releases": [
+    {
+      "tag": "v.1.0.0",
+      "published_at": "2026-07-10T19:13:55Z",
+      "url": "https://github.com/Parveen117/Cryptography-Recognition-Ledger-Systems/releases/tag/v.1.0.0",
+      "immutable": false,
+      "tag_object": {
+        "sha": "2ade4047c1fd3ce635225f5dc88767c488f4cc9f",
+        "type": "commit",
+        "url": "https://api.github.com/repos/Parveen117/Cryptography-Recognition-Ledger-Systems/git/commits/2ade4047c1fd3ce635225f5dc88767c488f4cc9f"
+      }
+    },
+    {
+      "tag": "v1.0.1",
+      "published_at": "2026-07-10T19:24:32Z",
+      "url": "https://github.com/Parveen117/Cryptography-Recognition-Ledger-Systems/releases/tag/v1.0.1",
+      "immutable": false,
+      "tag_object": {
+        "sha": "2ade4047c1fd3ce635225f5dc88767c488f4cc9f",
+        "type": "commit",
+        "url": "https://api.github.com/repos/Parveen117/Cryptography-Recognition-Ledger-Systems/git/commits/2ade4047c1fd3ce635225f5dc88767c488f4cc9f"
+      }
+    },
+    {
+      "tag": "v1",
+      "published_at": "2026-07-10T19:36:18Z",
+      "url": "https://github.com/Parveen117/Cryptography-Recognition-Ledger-Systems/releases/tag/v1",
+      "immutable": false,
+      "tag_object": {
+        "sha": "2ade4047c1fd3ce635225f5dc88767c488f4cc9f",
+        "type": "commit",
+        "url": "https://api.github.com/repos/Parveen117/Cryptography-Recognition-Ledger-Systems/git/commits/2ade4047c1fd3ce635225f5dc88767c488f4cc9f"
+      }
+    },
+    {
+      "tag": "v1.0.2",
+      "published_at": "2026-07-12T05:31:55Z",
+      "url": "https://github.com/Parveen117/Cryptography-Recognition-Ledger-Systems/releases/tag/v1.0.2",
+      "immutable": false,
+      "tag_object": {
+        "sha": "8ff03f1ab9982ead43590d72a41cdd190e915b40",
+        "type": "commit",
+        "url": "https://api.github.com/repos/Parveen117/Cryptography-Recognition-Ledger-Systems/git/commits/8ff03f1ab9982ead43590d72a41cdd190e915b40"
+      }
+    }
+  ],
+  "zenodo_archive": {
+    "repository": "Parveen117/Cryptography-Recognition-Ledger-Systems",
+    "record_id": 21318108,
+    "doi": "10.5281/zenodo.21318108",
+    "concept_doi": "10.5281/zenodo.21301064",
+    "version": "v1.0.2",
+    "record_created_at": "2026-07-12T05:32:00.009060+00:00",
+    "record_modified_at": "2026-07-14T18:33:01.893622+00:00",
+    "metadata_license": null,
+    "record_url": "https://zenodo.org/records/21318108",
+    "metadata_url": "https://zenodo.org/api/records/21318108",
+    "archive_files": [
+      {
+        "filename": "Parveen117/Cryptography-Recognition-Ledger-Systems-v1.0.2.zip",
+        "size_bytes": 587291,
+        "download_url": "https://zenodo.org/api/records/21318108/files/Parveen117/Cryptography-Recognition-Ledger-Systems-v1.0.2.zip/content",
+        "zenodo_checksum": "md5:d4091770fb92f6549b5999b819b62e15",
+        "sha256": "facd0db7cf9a24906f3e6119842a203018d0329fe1022ba537356485bca8ae82",
+        "git_blob_comparison": {
+          "matched": true,
+          "files_checked": 73,
+          "missing": [],
+          "extra": [],
+          "changed": []
+        }
+      }
+    ],
+    "verification_time": "2026-10-26T14:20:59.690494+00:00",
+    "release_commit": "8ff03f1ab9982ead43590d72a41cdd190e915b40",
+    "status": "verified"
+  }
+}

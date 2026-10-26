@@ -1,5 +1,8 @@
 # Cryptography Recognition and Ledger Systems
 
+> **Research record:** [Dated snapshot, content hashes and archive links](RESEARCH_PROVENANCE.md) · [Canonical repository governance](GOVERNANCE.md). Cite the exact version used.
+
+
 This repository contains a deployable cryptographic recognition, certificate, and append-only ledger stack built around a common state-recognition and control architecture.
 
 The implementation combines conventional cryptographic anchors with path-sensitive, phase-sensitive, residue-sensitive, and chain-sensitive verification. It is designed to determine not only whether bytes or signatures remain valid, but whether the transformation path, contextual binding, certificate history, and recognized state remain admissible.
